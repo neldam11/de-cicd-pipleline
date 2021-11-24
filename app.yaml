@@ -3,10 +3,10 @@ env: flex
 #service: customwebapp
 #service_account:
 
-network:
-  instance_tag: devops-labs
-  forwarded_ports:
-    - 8080:20000
+#network:
+  #instance_tag: devops-labs
+  #forwarded_ports:
+   # - 8080:20000
 
 resources:
   cpu: 2
