@@ -1,0 +1,14 @@
+runtime: java
+env: flex
+service: customwebapp
+#service_account:
+
+network:
+  instance_tag: devops-labs
+  forwarded_ports:
+    - 8080:20000
+
+resources:
+  cpu: 2
+  memory_gb: 2.3
+  disk_size_gb: 10
